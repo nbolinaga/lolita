@@ -7,6 +7,7 @@ import RequestButton from "@/components/RequestButton";
 import { useDocumentTitle } from "@uidotdev/usehooks";
 import { useFavicon } from "@uidotdev/usehooks";
 import { useState } from "react";
+import { Analytics } from "@vercel/analytics/react"
 
 export default function Home() {
   useDocumentTitle("Lolita | Home");
@@ -24,6 +25,7 @@ export default function Home() {
         <RequestButton />
       </main>
       <Footer />
+      <Analytics />
     </div>
   );
 }
