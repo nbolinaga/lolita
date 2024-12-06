@@ -11,7 +11,7 @@ const Navbar = () => {
           width={500}
           height={500}
           alt="lolita blue logo"
-          className='h-14 w-auto'
+          className='h-auto w-full md:h-14 md:w-auto'
         />
       </Link>
       <a href='/contact'><h5 className='w-fit mt-6 mx-auto md:mt-0 md:px-6 text-lg text-slate-800'>Contact Us</h5></a>

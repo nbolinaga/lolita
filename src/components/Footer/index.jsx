@@ -12,12 +12,12 @@ const Footer = () => {
           width={500}
           height={500}
           alt="lolita blue logo"
-          className='h-14 w-auto '
+          className='h-auto w-full '
         />
       </div>
       <div className='col-span-1 md:flex justify-center items-center'>
-        <a href='/contact'><h5 className='px-6 text-lg text-slate-800 mx-auto w-fit'>Contact Us</h5></a>
-        <a><h5 className='hidden md:block px-6 text-lg text-slate-800 mx-auto w-fit'>|</h5></a>
+        <a href='/contact'><h5 className='px-6 text-lg text-slate-800 md:mx-auto w-fit'>Contact Us</h5></a>
+        <a><h5 className='hidden md:block px-6 text-lg text-slate-800 md:mx-auto w-fit'>|</h5></a>
         <a href='https://www.instagram.com/_lolitadc' target='_blank'><h5 className='px-6 text-lg text-slate-800 mx-auto w-fit'>Follow Us</h5></a>
       </div>
     </div>
