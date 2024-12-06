@@ -4,7 +4,7 @@ import Link from 'next/link'
 
 const Navbar = () => {
   return (
-    <div className='md:flex justify-between items-end w-full py-6 border-b-gray-400 border-b'>
+    <div className='relative z-50 md:flex justify-between items-end w-full py-6 border-b-gray-400 border-b'>
       <Link href='/'>
         <Image
           src="/lolita.png"
