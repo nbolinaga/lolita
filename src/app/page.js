@@ -17,7 +17,7 @@ export default function Home() {
 
   useFavicon(favicon);
   return (
-    <div className="bg-[#fdf8f2] min-h-screen py-6 px-32  font-[family-name:var(--font-geist-sans)] overflow-x-hidden">
+    <div className="bg-[#fdf8f2] min-h-screen py-6 px-32  font-[family-name:var(--font-lato)] overflow-x-hidden">
       <Navbar />
       <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
         <Banner />

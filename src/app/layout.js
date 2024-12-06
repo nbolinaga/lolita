@@ -2,14 +2,21 @@ import localFont from "next/font/local";
 import "./globals.css";
 
 
-const geistSans = localFont({
-  src: "./fonts/GeistVF.woff",
-  variable: "--font-geist-sans",
+const lato = localFont({
+  src: "./fonts/Lato-Regular.ttf",
+  variable: "--font-lato",
   weight: "100 900",
 });
-const geistMono = localFont({
-  src: "./fonts/GeistMonoVF.woff",
-  variable: "--font-geist-mono",
+
+const catchy = localFont({
+  src: "./fonts/CatchyMager.otf",
+  variable: "--font-catchy",
+  weight: "100 900",
+});
+
+const hangy = localFont({
+  src: "./fonts/Hangyaboly.ttf",
+  variable: "--font-hangy",
   weight: "100 900",
 });
 
@@ -22,7 +29,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${lato.variable} ${catchy.variable}  ${hangy.variable}  antialiased`}
       >
         {children}
       </body>
