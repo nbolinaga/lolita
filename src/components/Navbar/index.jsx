@@ -14,7 +14,7 @@ const Navbar = () => {
           className='h-auto w-full md:h-14 md:w-auto'
         />
       </Link>
-      <a href='/contact'><h5 className='w-fit mt-6 mx-auto md:mt-0 md:px-6 text-lg text-slate-800'>Contact Us</h5></a>
+      <a href='https://forms.gle/9GzM4RFztV7ozyT17' target='_blank'><h5 className='w-fit mt-6 mx-auto md:mt-0 md:px-6 text-lg text-slate-800'>Contact Us</h5></a>
     </div>
   )
 }
